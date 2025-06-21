@@ -31,6 +31,12 @@
     dotnet sln add UserManagement.API/UserManagement.API.csproj
 6 - INSTALAR DEPENDENCIAS NUGET
     dotnet add UserManagement.API package Swashbuckle.AspNetCore
+    dotnet add UserManagementService.Infrastructure package Microsoft.EntityFrameworkCore.SqlServer
+    dotnet add UserManagementService.Infrastructure package Microsoft.EntityFrameworkCore
+    dotnet add UserManagementService.Infrastructure package Microsoft.EntityFrameworkCore.Tools
+    dotnet add UserManagementService.Infrastructure.Tests package Microsoft.Extensions.Configuration
+    dotnet add UserManagementService.Infrastructure.Tests package Microsoft.Extensions.Configuration.Json
+
 7 - REALIZAR EL BUILD
     dotnet build
 8 - EJECUTAR EL PROYECTO

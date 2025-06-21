@@ -14,3 +14,5 @@ C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debu
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\refint\UserManagementService.Infrastructure.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.pdb
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\ref\UserManagementService.Infrastructure.dll
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Infrastructure.runtimeconfig.json
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.genruntimeconfig.cache
