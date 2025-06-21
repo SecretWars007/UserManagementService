@@ -17,10 +17,15 @@
     # Capa API (adaptador HTTP, Web API)
     dotnet new webapi -n UserManagement.API
 4 - CREACION DE REFERENCIAS ENTRE PROYECTOS
-# Domain lo usan Application e Infrastructure
-dotnet add UserManagement.Application/UserManagement.Application.csproj reference UserManagement.Domain/UserManagement.Domain.csproj
-dotnet add UserManagement.Infrastructure/UserManagement.Infrastructure.csproj reference UserManagement.Domain/UserManagement.Domain.csproj
+    # Domain lo usan Application e Infrastructure
+    dotnet add UserManagement.Application/UserManagement.Application.csproj reference UserManagement.Domain/UserManagement.Domain.csproj
+    dotnet add UserManagement.Infrastructure/UserManagement.Infrastructure.csproj reference UserManagement.Domain/UserManagement.Domain.csproj
 
-# API depende de Application e Infrastructure
-dotnet add UserManagement.API/UserManagement.API.csproj reference UserManagement.Application/UserManagement.Application.csproj
-dotnet add UserManagement.API/UserManagement.API.csproj reference UserManagement.Infrastructure/UserManagement.Infrastructure.csproj
+    # API depende de Application e Infrastructure
+    dotnet add UserManagement.API/UserManagement.API.csproj reference UserManagement.Application/UserManagement.Application.csproj
+    dotnet add UserManagement.API/UserManagement.API.csproj reference UserManagement.Infrastructure/UserManagement.Infrastructure.csproj
+5 - CREACION DE REFERENCIAS DE TODOS LOS PROYECTOS AL PROYECTO RAIZ
+    dotnet sln add UserManagement.Domain/UserManagement.Domain.csproj
+    dotnet sln add UserManagement.Application/UserManagement.Application.csproj
+    dotnet sln add UserManagement.Infrastructure/UserManagement.Infrastructure.csproj
+    dotnet sln add UserManagement.API/UserManagement.API.csproj

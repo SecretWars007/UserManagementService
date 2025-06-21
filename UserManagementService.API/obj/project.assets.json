@@ -33,6 +33,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "UserManagementService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "UserManagementService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserManagementService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagementService.Application.dll": {}
+        }
+      },
+      "UserManagementService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/UserManagementService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagementService.Domain.dll": {}
+        }
+      },
+      "UserManagementService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "UserManagementService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserManagementService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagementService.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -67,11 +103,28 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "UserManagementService.Application/1.0.0": {
+      "type": "project",
+      "path": "../UserManagementService.Application/UserManagementService.Application.csproj",
+      "msbuildProject": "../UserManagementService.Application/UserManagementService.Application.csproj"
+    },
+    "UserManagementService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UserManagementService.Domain/UserManagementService.Domain.csproj",
+      "msbuildProject": "../UserManagementService.Domain/UserManagementService.Domain.csproj"
+    },
+    "UserManagementService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../UserManagementService.Infrastructure/UserManagementService.Infrastructure.csproj",
+      "msbuildProject": "../UserManagementService.Infrastructure/UserManagementService.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.5"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.5",
+      "UserManagementService.Application >= 1.0.0",
+      "UserManagementService.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -105,7 +158,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\proyectos\\UserManagementService\\UserManagementService.Application\\UserManagementService.Application.csproj": {
+              "projectPath": "C:\\proyectos\\UserManagementService\\UserManagementService.Application\\UserManagementService.Application.csproj"
+            },
+            "C:\\proyectos\\UserManagementService\\UserManagementService.Infrastructure\\UserManagementService.Infrastructure.csproj": {
+              "projectPath": "C:\\proyectos\\UserManagementService\\UserManagementService.Infrastructure\\UserManagementService.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
