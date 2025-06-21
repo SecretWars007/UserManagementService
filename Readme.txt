@@ -29,3 +29,9 @@
     dotnet sln add UserManagement.Application/UserManagement.Application.csproj
     dotnet sln add UserManagement.Infrastructure/UserManagement.Infrastructure.csproj
     dotnet sln add UserManagement.API/UserManagement.API.csproj
+6 - INSTALAR DEPENDENCIAS NUGET
+    dotnet add UserManagement.API package Swashbuckle.AspNetCore
+7 - REALIZAR EL BUILD
+    dotnet build
+8 - EJECUTAR EL PROYECTO
+    dotnet run --project UserManagement.API

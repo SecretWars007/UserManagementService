@@ -1,0 +1,16 @@
+C:\proyectos\UserManagementService\UserManagementService.Application\bin\Debug\net9.0\UserManagementService.Application.deps.json
+C:\proyectos\UserManagementService\UserManagementService.Application\bin\Debug\net9.0\UserManagementService.Application.dll
+C:\proyectos\UserManagementService\UserManagementService.Application\bin\Debug\net9.0\UserManagementService.Application.pdb
+C:\proyectos\UserManagementService\UserManagementService.Application\bin\Debug\net9.0\UserManagementService.Domain.dll
+C:\proyectos\UserManagementService\UserManagementService.Application\bin\Debug\net9.0\UserManagementService.Domain.pdb
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.csproj.AssemblyReference.cache
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.AssemblyInfoInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.AssemblyInfo.cs
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.csproj.CoreCompileInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.sourcelink.json
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserMana.5EF46F8B.Up2Date
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.dll
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\refint\UserManagementService.Application.dll
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\UserManagementService.Application.pdb
+C:\proyectos\UserManagementService\UserManagementService.Application\obj\Debug\net9.0\ref\UserManagementService.Application.dll

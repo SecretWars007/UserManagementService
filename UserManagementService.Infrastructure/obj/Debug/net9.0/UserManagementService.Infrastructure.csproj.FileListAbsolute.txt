@@ -1,0 +1,16 @@
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Infrastructure.deps.json
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Infrastructure.dll
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Infrastructure.pdb
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Domain.dll
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\bin\Debug\net9.0\UserManagementService.Domain.pdb
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.csproj.AssemblyReference.cache
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.AssemblyInfoInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.AssemblyInfo.cs
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.sourcelink.json
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserMana.2F943184.Up2Date
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.dll
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\refint\UserManagementService.Infrastructure.dll
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\UserManagementService.Infrastructure.pdb
+C:\proyectos\UserManagementService\UserManagementService.Infrastructure\obj\Debug\net9.0\ref\UserManagementService.Infrastructure.dll

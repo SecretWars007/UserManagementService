@@ -1,0 +1,12 @@
+C:\proyectos\UserManagementService\UserManagementService.Domain\bin\Debug\net9.0\UserManagementService.Domain.deps.json
+C:\proyectos\UserManagementService\UserManagementService.Domain\bin\Debug\net9.0\UserManagementService.Domain.dll
+C:\proyectos\UserManagementService\UserManagementService.Domain\bin\Debug\net9.0\UserManagementService.Domain.pdb
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.AssemblyInfoInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.AssemblyInfo.cs
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.csproj.CoreCompileInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.sourcelink.json
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.dll
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\refint\UserManagementService.Domain.dll
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\UserManagementService.Domain.pdb
+C:\proyectos\UserManagementService\UserManagementService.Domain\obj\Debug\net9.0\ref\UserManagementService.Domain.dll
