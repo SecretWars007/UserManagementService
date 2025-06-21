@@ -10,7 +10,13 @@ namespace UserManagementService.Domain.entities
         public Guid Id { get; private set; } = Guid.NewGuid();
         public string Name { get; private set; }
 
-        public Role(string name) => Name = name;
+        public Role(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("El nombre del rol no puede estar vacío.");
+
+            Name = name;
+        }
 
         private Role() { }
     }

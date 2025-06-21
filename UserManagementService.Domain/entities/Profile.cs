@@ -14,6 +14,12 @@ namespace UserManagementService.Domain.entities
 
         public Profile(Guid userId, string fullName, string? address = null)
         {
+            if (userId == Guid.Empty)
+                throw new ArgumentException("El ID del usuario es obligatorio.", nameof(userId));
+
+            if (string.IsNullOrWhiteSpace(fullName))
+                throw new ArgumentException("El nombre completo es obligatorio.", nameof(fullName));
+
             UserId = userId;
             FullName = fullName;
             Address = address;
