@@ -12,17 +12,24 @@ namespace UserManagementService.Infrastructure.Tests
     {
         public static AppDbContext CreateSqlServerDb()
         {
-            var config = new ConfigurationBuilder().AddJsonFile("appsettings.Test.json").Build();
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.Test.json", optional: false)
+                .Build();
 
             var connectionString = config.GetConnectionString("TestDb");
 
             var options = new DbContextOptionsBuilder<AppDbContext>()
-                .UseSqlServer(connectionString!)
+                .UseSqlServer(connectionString)
                 .Options;
 
-            var db = new AppDbContext(options);
-            db.Database.EnsureCreated(); // para test, mejor que usar migraciones
-            return db;
+            var context = new AppDbContext(options);
+
+            // 💥 Forzamos eliminar la base antes de crearla
+            //context.Database.EnsureDeleted(); // borra si existe
+            //context.Database.EnsureCreated(); // vuelve a crear
+
+            return context;
         }
     }
 }

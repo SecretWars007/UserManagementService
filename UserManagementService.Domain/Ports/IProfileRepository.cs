@@ -10,5 +10,6 @@ namespace UserManagementService.Domain.Ports
     {
         Task<Profile> AddAsync(Profile profile);
         Task<Profile?> GetByUserIdAsync(Guid userId);
+        Task<IEnumerable<Profile>> GetAllAsync();
     }
 }
