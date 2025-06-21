@@ -108,3 +108,4 @@ C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\D
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.pdb
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.genruntimeconfig.cache
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\ref\UserManagementService.Application.Tests.dll
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\FluentAssertions.dll

@@ -36,8 +36,9 @@ namespace UserManagementService.Domain.Tests
             Action act = () => new Profile(userId, fullName);
 
             // Assert
-            act.Should().Throw<ArgumentException>()
-            .WithMessage("El nombre completo es obligatorio*");
+            act.Should()
+                .Throw<ArgumentException>()
+                .WithMessage("El nombre completo es obligatorio*");
         }
 
         [Fact]
@@ -51,8 +52,9 @@ namespace UserManagementService.Domain.Tests
             Action act = () => new Profile(userId, fullName);
 
             // Assert
-            act.Should().Throw<ArgumentException>()
-            .WithMessage("El ID del usuario es obligatorio*");
+            act.Should()
+                .Throw<ArgumentException>()
+                .WithMessage("El ID del usuario es obligatorio*");
         }
 
         [Fact]

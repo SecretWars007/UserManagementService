@@ -31,7 +31,8 @@ namespace UserManagementService.Domain.Tests
             Action act = () => new Role(name);
 
             // Assert
-            act.Should().Throw<ArgumentException>()
+            act.Should()
+                .Throw<ArgumentException>()
                 .WithMessage("El nombre del rol no puede estar vacío*");
         }
     }
