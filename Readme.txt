@@ -55,6 +55,7 @@
     dotnet add UserManagement.Application.Tests package Moq
     dotnet add UserManagement.Infrastructure.Tests package xunit
     dotnet add UserManagement.API.Tests package xunit
+    dotnet add UserManagement.Domain.Tests package FluentAssertions
 12 - AGREGAR REFERENCIAS DEL PROYECTO TEST TDD AL PROYECTO RAIZ
     dotnet sln add UserManagement.Domain.Tests/UserManagement.Domain.Tests.csproj
     dotnet sln add UserManagement.Application.Tests/UserManagement.Application.Tests.csproj
