@@ -11,12 +11,13 @@ builder.Services.AddSwaggerGen(); // Generador de Swagger
 // ✅ Agrega política de CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
-    {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
+    options.AddPolicy(
+        "AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        }
+    );
 });
 
 // 🔁 Inyectar dependencias de Application e Infrastructure
@@ -24,9 +25,6 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
-
-// ✅ Usa CORS
-app.UseCors("AllowAll");
 
 app.UseSwagger();
 app.UseSwaggerUI(c =>
