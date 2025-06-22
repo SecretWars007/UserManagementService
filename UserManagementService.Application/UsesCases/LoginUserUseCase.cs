@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using UserManagementService.Application.DTOs;
 using UserManagementService.Domain.Exceptions;
 using UserManagementService.Domain.Ports;

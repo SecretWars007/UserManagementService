@@ -1,27 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using UserManagementService.Domain.entities;
 using UserManagementService.Domain.Exceptions;
 using UserManagementService.Domain.Ports;
 
 namespace UserManagementService.Application.UsesCases
 {
-    public class RegisterUserUseCase
+    public partial class RegisterUserUseCase(
+        IUserRepository userRepository,
+        IProfileRepository profileRepository
+    )
     {
-        private readonly IUserRepository _userRepository;
-        private readonly IProfileRepository _profileRepository;
-
-        public RegisterUserUseCase(
-            IUserRepository userRepository,
-            IProfileRepository profileRepository
-        )
-        {
-            _userRepository = userRepository;
-            _profileRepository = profileRepository;
-        }
+        private readonly IUserRepository _userRepository = userRepository;
+        private readonly IProfileRepository _profileRepository = profileRepository;
 
         public async Task<User> ExecuteAsync(
             string email,
@@ -32,7 +22,7 @@ namespace UserManagementService.Application.UsesCases
         )
         {
             // 1. Validar email
-            if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (!MyRegex().IsMatch(email))
                 throw new BusinessException("El email no tiene un formato válido.");
 
             // 2. Validar que no exista usuario
@@ -50,5 +40,8 @@ namespace UserManagementService.Application.UsesCases
 
             return createdUser;
         }
+
+        [GeneratedRegex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")]
+        private static partial Regex MyRegex();
     }
 }

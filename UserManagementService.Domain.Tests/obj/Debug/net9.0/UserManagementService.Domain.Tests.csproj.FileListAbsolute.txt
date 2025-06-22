@@ -9,6 +9,7 @@ C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\UserManagementService.Domain.Tests.runtimeconfig.json
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\UserManagementService.Domain.Tests.dll
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\UserManagementService.Domain.Tests.pdb
+C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\FluentAssertions.dll
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -101,4 +102,3 @@ C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\obj\Debug\
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\obj\Debug\net9.0\UserManagementService.Domain.Tests.pdb
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\obj\Debug\net9.0\UserManagementService.Domain.Tests.genruntimeconfig.cache
 C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\obj\Debug\net9.0\ref\UserManagementService.Domain.Tests.dll
-C:\proyectos\UserManagementService\UserManagementService.Domain.Tests\bin\Debug\net9.0\FluentAssertions.dll

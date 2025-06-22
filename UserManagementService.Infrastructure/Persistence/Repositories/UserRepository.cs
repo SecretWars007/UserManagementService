@@ -4,14 +4,9 @@ using UserManagementService.Domain.Ports;
 
 namespace UserManagementService.Infrastructure.Persistence.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository(AppDbContext db) : IUserRepository
     {
-        private readonly AppDbContext _db;
-
-        public UserRepository(AppDbContext db)
-        {
-            _db = db;
-        }
+        private readonly AppDbContext _db = db;
 
         public async Task<User?> GetByEmailAsync(string email) =>
             await _db.Users.FirstOrDefaultAsync(u => u.Email == email);

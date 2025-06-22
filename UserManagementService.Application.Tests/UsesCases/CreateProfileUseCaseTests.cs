@@ -27,11 +27,12 @@ namespace UserManagementService.Application.Tests.UsesCases
             var userId = Guid.NewGuid();
             var fullName = "Ana Torres";
             var address = "Calle Falsa 123";
+            var password = "hashed123";
 
             _profileRepo.Setup(p => p.AddAsync(It.IsAny<Profile>())).ReturnsAsync((Profile p) => p);
 
             // Act
-            var result = await _useCase.ExecuteAsync(userId, fullName, address);
+            var result = await _useCase.ExecuteAsync(userId, fullName, address, password);
 
             // Assert
             result.Should().NotBeNull();
@@ -51,7 +52,8 @@ namespace UserManagementService.Application.Tests.UsesCases
             var userId = Guid.NewGuid();
 
             // Act
-            Func<Task> act = () => _useCase.ExecuteAsync(userId, fullName, "Av. Libre 45");
+            Func<Task> act = () =>
+                _useCase.ExecuteAsync(userId, fullName, "Av. Libre 45", "hashed123");
 
             // Assert
             await act.Should()
@@ -66,7 +68,8 @@ namespace UserManagementService.Application.Tests.UsesCases
             var fullName = "Carlos Núñez";
 
             // Act
-            Func<Task> act = () => _useCase.ExecuteAsync(Guid.Empty, fullName, "Calle Central");
+            Func<Task> act = () =>
+                _useCase.ExecuteAsync(Guid.Empty, fullName, "Calle Central", "hashed123");
 
             // Assert
             await act.Should()
@@ -80,11 +83,12 @@ namespace UserManagementService.Application.Tests.UsesCases
             // Arrange
             var userId = Guid.NewGuid();
             var fullName = "Lucía Martínez";
+            var password = "hashed123";
 
             _profileRepo.Setup(p => p.AddAsync(It.IsAny<Profile>())).ReturnsAsync((Profile p) => p);
 
             // Act
-            var result = await _useCase.ExecuteAsync(userId, fullName, null);
+            var result = await _useCase.ExecuteAsync(userId, fullName, null, password);
 
             // Assert
             result.Should().NotBeNull();

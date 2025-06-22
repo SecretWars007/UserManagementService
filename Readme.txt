@@ -63,6 +63,7 @@
     dotnet add UserManagement.API.Tests package xunit
     dotnet add UserManagement.Domain.Tests package FluentAssertions
     dotnet add UserManagementService.Application.Tests package FluentAssertions
+    dotnet add UserManagementService.API package Microsoft.EntityFrameworkCore.Design
 12 - AGREGAR REFERENCIAS DEL PROYECTO TEST TDD AL PROYECTO RAIZ
     dotnet sln add UserManagement.Domain.Tests/UserManagement.Domain.Tests.csproj
     dotnet sln add UserManagement.Application.Tests/UserManagement.Application.Tests.csproj
@@ -70,3 +71,7 @@
     dotnet sln add UserManagement.API.Tests/UserManagement.API.Tests.csproj
 13 - REALIZAR EL BUILD
     dotnet build
+14 - REALIZAR MIGRACION A MOTOR SQL SQLSERVER
+    dotnet ef migrations add InitialCreate --project UserManagementService.Infrastructure --startup-project UserManagementService.API
+    dotnet ef database update --project UserManagementService.Infrastructure --startup-project UserManagementService.API
+

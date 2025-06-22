@@ -3,11 +3,8 @@ using UserManagementService.Domain.entities;
 
 namespace UserManagementService.Infrastructure.Persistence
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options)
-            : base(options) { }
-
         public DbSet<User> Users => Set<User>();
         public DbSet<Role> Roles => Set<Role>();
         public DbSet<Profile> Profiles => Set<Profile>();

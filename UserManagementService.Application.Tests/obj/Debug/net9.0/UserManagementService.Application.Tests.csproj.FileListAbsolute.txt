@@ -1,5 +1,11 @@
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_UserManagementService.Application.Tests
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_UserManagementService.Application.Tests
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.csproj.AssemblyReference.cache
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.AssemblyInfoInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.AssemblyInfo.cs
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.csproj.CoreCompileInputs.cache
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.sourcelink.json
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\testhost.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\testhost.exe
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
@@ -10,6 +16,7 @@ C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\D
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\UserManagementService.Application.Tests.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\UserManagementService.Application.Tests.pdb
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\Castle.Core.dll
+C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\FluentAssertions.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -96,16 +103,9 @@ C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\D
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\UserManagementService.Domain.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\UserManagementService.Application.pdb
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\UserManagementService.Domain.pdb
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.csproj.AssemblyReference.cache
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.AssemblyInfoInputs.cache
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.AssemblyInfo.cs
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.csproj.CoreCompileInputs.cache
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.sourcelink.json
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserMana.8F168246.Up2Date
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\refint\UserManagementService.Application.Tests.dll
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.pdb
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\UserManagementService.Application.Tests.genruntimeconfig.cache
 C:\proyectos\UserManagementService\UserManagementService.Application.Tests\obj\Debug\net9.0\ref\UserManagementService.Application.Tests.dll
-C:\proyectos\UserManagementService\UserManagementService.Application.Tests\bin\Debug\net9.0\FluentAssertions.dll
