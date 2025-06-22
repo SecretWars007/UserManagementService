@@ -21,7 +21,8 @@ namespace UserManagementService.Infrastructure.DependecyInjection
         )
         {
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DBConfiguration")));
+                options.UseSqlServer(configuration.GetConnectionString("DBConfiguration"))
+            );
 
             // Repositorios
             services.AddScoped<IUserRepository, UserRepository>();
