@@ -5,10 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer(); // Para OpenAPI
-builder.Services.AddSwaggerGen(); // Generador de Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-// ✅ Agrega política de CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(
@@ -20,7 +19,6 @@ builder.Services.AddCors(options =>
     );
 });
 
-// 🔁 Inyectar dependencias de Application e Infrastructure
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -32,8 +30,10 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
 });
 
-// ⚠️ Usa HTTP si estás en desarrollo (quítalo si quieres forzar HTTPS solo en producción)
 app.UseHttpsRedirection();
+
+// ¡Agrega esta línea para activar CORS!
+app.UseCors("AllowAll");
 
 app.MapControllers();
 
