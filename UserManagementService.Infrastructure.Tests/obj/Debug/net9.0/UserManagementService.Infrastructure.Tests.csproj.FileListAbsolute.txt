@@ -56,13 +56,11 @@ C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bi
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.ClientModel.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Memory.Data.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Runtime.Caching.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Text.Json.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\System.Windows.Extensions.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\xunit.abstractions.dll
 C:\proyectos\UserManagementService\UserManagementService.Infrastructure.Tests\bin\Debug\net9.0\xunit.assert.dll
